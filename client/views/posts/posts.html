@@ -1,0 +1,17 @@
+<template name = "posts">
+	{{> listPosts}}
+</template>
+
+<template name = "listPosts">
+	{{#each posts}}
+   		{{> post}}
+	{{/each}}
+</template>
+
+<template name = "post">
+	<div class="post-view">
+		<a href="{{pathFor 'postView'}}"><h4>{{title}}</h4></a>
+	    <small> <a href="{{link}}">{{link}}</a> </small>
+		<h6> Tags: <kbd> {{tags}} </kbd> </h6>
+	</div>
+</template>

@@ -1,0 +1,29 @@
+<template name="postAdd">
+	{{> header}}
+	<div class="container">
+		<h2>Add Content <small>Add Content</small></h2>
+		<form class="form-horizontal" role="form">
+			<div class="form-group">
+    			<label for="inputTitle" class="col-sm-2 control-label">Title</label>
+    			<div class="col-sm-10">
+      				<input type="text" class="form-control" id="title" placeholder="Title">
+    			</div>
+  			</div>
+  			<div class="form-group">
+    			<label for="inputURL" class="col-sm-2 control-label">URL</label>
+    			<div class="col-sm-10">
+      				<input type="url" class="form-control" id="link" placeholder="URL">
+    			</div>
+  			</div>
+  			<div class="form-group">
+    			<label for="inputTags" class="col-sm-2 control-label">Tags</label>
+    			<div class="col-sm-10">
+      				<input type="text" class="form-control" id="tags" placeholder="Tags">
+      				<span class="help-block">Separate tags with a comma.</span>
+    			</div>
+  			</div>
+			<button type="button" class="btn btn-default btn-lg btn-block">Add</button>
+		</form>
+  	</div>
+  	{{> footer}}
+</template>

@@ -1,0 +1,83 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  text-align: center;
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 60px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+#footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+/*varios*/
+
+.post-view {
+    background-color: #F4F8FA;
+    border-color: #5BC0DE;
+        border-top-color: #5BC0DE;
+        border-right-color-value: #5BC0DE;
+        border-bottom-color: #5BC0DE;
+        border-left-color-value: #5BC0DE;
+        border-left-color-ltr-source: physical;
+        border-left-color-rtl-source: physical;
+        border-right-color-ltr-source: physical;
+        border-right-color-rtl-source: physical;
+    margin: 10px 0px;
+        margin-top: 10px;
+        margin-right-value: 0px;
+        margin-bottom: 10px;
+        margin-left-value: 0px;
+        margin-left-ltr-source: physical;
+        margin-left-rtl-source: physical;
+        margin-right-ltr-source: physical;
+        margin-right-rtl-source: physical;
+    padding: 10px;
+        padding-top: 10px;
+        padding-right-value: 10px;
+        padding-bottom: 10px;
+        padding-left-value: 10px;
+        padding-left-ltr-source: physical;
+        padding-left-rtl-source: physical;
+        padding-right-ltr-source: physical;
+        padding-right-rtl-source: physical;
+    border-left: 3px solid #EEE;
+        border-left-width-value: 3px;
+        border-left-style-value: solid;
+        border-left-color-value: #EEE;
+        border-left-width-ltr-source: physical;
+        border-left-width-rtl-source: physical;
+        border-left-style-ltr-source: physical;
+        border-left-style-rtl-source: physical;
+        border-left-color-ltr-source: physical;
+        border-left-color-rtl-source: physical;
+}
