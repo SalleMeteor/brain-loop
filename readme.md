@@ -7,7 +7,7 @@ BrainLoop is a social news website that delivers tutorials and content related t
 
 (22.04.14) A registered user can only edit and/or delete its own content.
 
-BrainLoop is being developed using MeteorJS. Current version is deployed at [BrainLoop](http://brainloops.meteor.com/ "BrainLoop
+BrainLoop is being developed using MeteorJS. Current version is deployed at [BrainLoop](http://brainloop.meteor.com/ "BrainLoop
 ").
 
 This application makes use of the following Meteor/Atmosphere packages.
